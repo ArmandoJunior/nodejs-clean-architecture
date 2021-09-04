@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1630790645439" clover="3.2.0">
-  <project timestamp="1630790645439" name="All files">
-    <metrics statements="46" coveredstatements="46" conditionals="9" coveredconditionals="9" methods="5" coveredmethods="5" elements="60" coveredelements="60" complexity="0" loc="46" ncloc="46" packages="2" files="3" classes="3"/>
+<coverage generated="1630791182577" clover="3.2.0">
+  <project timestamp="1630791182577" name="All files">
+    <metrics statements="58" coveredstatements="58" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="65" coveredelements="65" complexity="0" loc="58" ncloc="58" packages="2" files="4" classes="4"/>
     <package name="helpers">
-      <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="36" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
       <file name="http-response.js" path="/home/moblyti/www/learn/nodejs/clean-api-js/src/presentation/helpers/http-response.js">
-        <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
       </file>
       <file name="missing-param-error.js" path="/home/moblyti/www/learn/nodejs/clean-api-js/src/presentation/helpers/missing-param-error.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -32,35 +40,42 @@
         <line num="5" count="4" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
       </file>
+      <file name="unauthorized-error.js" path="/home/moblyti/www/learn/nodejs/clean-api-js/src/presentation/helpers/unauthorized-error.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
     </package>
     <package name="routers">
-      <metrics statements="24" coveredstatements="24" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+      <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="login-router.js" path="/home/moblyti/www/learn/nodejs/clean-api-js/src/presentation/routers/login-router.js">
-        <metrics statements="24" coveredstatements="24" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="12" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
     </package>
   </project>
