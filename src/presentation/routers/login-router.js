@@ -5,7 +5,7 @@ module.exports = class LoginRouter {
     this.authUseCase = authUseCase
   }
 
-  route (httpRequest) {
+  async route (httpRequest) {
     /**
      * Para evitar de ter que adicionar uma nova validação para cada cenário encontrado em erros no lado do servidor (500)
      * foi adicionado um try catch envolta de todo o código da rota, assim todo o erro que gerar no lado do servidor irá
@@ -21,7 +21,7 @@ module.exports = class LoginRouter {
       if (!password) {
         return HttpResponse.badRequest('password')
       }
-      const accessToken = this.authUseCase.auth(email, password)
+      const accessToken = await this.authUseCase.auth(email, password)
       if (!accessToken) {
         return HttpResponse.unauthorezedError()
       }
