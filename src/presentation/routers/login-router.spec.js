@@ -38,7 +38,7 @@ const makeEmailValidatorWithError = () => {
 
 const makeEmailValidator = () => {
   class EmailValidatorSpy {
-    isValid (email) {
+    async isValid (email) {
       this.email = email
       return this.isEmailValid
     }
@@ -122,7 +122,7 @@ describe('Login Router', () => {
     expect(httpResponse.body).toEqual(new MissingParamError('password'))
   })
 
-  test('Shold return 400 if an invalid email is provided', async () => {
+  test('Should return 400 if an invalid email is provided', async () => {
     const { sut, emailValidatorSpy } = makeSut()
     emailValidatorSpy.isEmailValid = false
     const httpRequest = {
